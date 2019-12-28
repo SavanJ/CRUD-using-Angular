@@ -1,0 +1,11 @@
+<h1>Customers List</h1>
+
+<div *ngFor="let customer of customers" class="container-fluid" >
+  <app-customer-detail [customer]='customer'></app-customer-detail>
+</div>
+
+
+
+<div style="margin-top:20px;">
+  <!-- <button type="button" class="button btn-danger" (click)='deleteCustomers()'>Delete All</button> -->
+</div>
